@@ -21,6 +21,8 @@ Sau khi sửa lại các file cần thiết này
 
 Thì ta sẽ liên kết được trang wed AWS  sau đó ta sẽ  cào dữ liệu được từ wed và hiển thị ra màn hình như này 
 
+![image](https://github.com/user-attachments/assets/567df779-78e3-405a-a1d1-20930a8ccc8a)
+
 Câu 4:
 Ta sẽ down những file về và sau khi chạy code ta được thêm 2 file
 
