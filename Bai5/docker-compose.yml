@@ -1,0 +1,41 @@
+version: "3.8"
+
+services:
+  db:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: yourdb
+    volumes:
+      - bitp5_postgres_data:/var/lib/postgresql/data
+      - ./data/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "user", "-d", "yourdb"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 5s
+
+  run:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    ports:
+      - "5000:5000"
+    environment:
+      - DB_HOST=db
+      - DB_PORT=5432
+      - DB_NAME=yourdb
+      - DB_USER=user
+      - DB_PASSWORD=password
+
+volumes:
+  bitp5_postgres_data:
