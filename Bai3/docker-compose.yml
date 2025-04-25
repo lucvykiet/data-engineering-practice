@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: exercise_3_container
+    environment:
+      - AWS_ACCESS_KEY_ID=khongbietkhongbiet
+      - AWS_SECRET_ACCESS_KEY=khongbiet
+      - AWS_REGION=us-east-1
+    volumes:
+      - .:/app
+    command: python main.py
