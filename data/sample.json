@@ -1,0 +1,11 @@
+{
+  "name": "John Doe",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -99.9,
+      16.88333
+    ]
+  },
+  "age": 30
+}
