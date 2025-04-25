@@ -19,6 +19,9 @@ Khi chạy lệnh ta được 1 đống file csv trông tệp này được cào
 Câu 3:
 Sau khi sửa lại các file cần thiết này
 
+![Uploading image.png…]()
+
+
 Thì ta sẽ liên kết được trang wed AWS  sau đó ta sẽ  cào dữ liệu được từ wed và hiển thị ra màn hình như này 
 
 ![image](https://github.com/user-attachments/assets/567df779-78e3-405a-a1d1-20930a8ccc8a)
