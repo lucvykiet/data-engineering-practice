@@ -19,7 +19,13 @@ Khi chạy lệnh ta được 1 đống file csv trông tệp này được cào
 Câu 3:
 Sau khi sửa lại các file cần thiết này
 
+![image](https://github.com/user-attachments/assets/48265634-ef88-4fa6-a2e1-66bc3d7d3291)
+
+
 Thì ta sẽ liên kết được trang wed AWS  sau đó ta sẽ  cào dữ liệu được từ wed và hiển thị ra màn hình như này 
+
+![image](https://github.com/user-attachments/assets/6bbdc37b-09a2-4d02-9af9-b64bc264d90d)
+
 
 Câu 4:
 Ta sẽ down những file về và sau khi chạy code ta được thêm 2 file
