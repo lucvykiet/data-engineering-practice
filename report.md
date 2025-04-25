@@ -46,6 +46,7 @@ Trong data sẽ có 3 file csv
 ![image](https://github.com/user-attachments/assets/2aa255a7-06b0-4db7-9ac9-aa937fb5e84b)
 
 Viết pipeline 
+
 Khi chạy pipeline đã viết thì bài sẽ tự động thực hiện
 ![image](https://github.com/user-attachments/assets/f6a59975-4a45-4d5f-aea7-8ce1e9f9c611)
 
